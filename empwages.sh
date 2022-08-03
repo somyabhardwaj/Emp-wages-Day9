@@ -8,3 +8,7 @@ then
 else
         echo "Employee is present"
 fi
+
+wageHour=20
+dayHour=8
+dailyWage=$(($wageHour*$dayHour))s
